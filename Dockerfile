@@ -1,4 +1,5 @@
-FROM eclipse-temurin:17-jdk-alpine
+FROM public.ecr.aws/amazoncorretto/amazoncorretto:17-alpine
+
 
 RUN apk add --no-cache curl
 
